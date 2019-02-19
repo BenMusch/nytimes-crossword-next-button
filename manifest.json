@@ -1,0 +1,13 @@
+{
+  "name": "NYTimes Cross",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "you get the idea",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": ["*://www.nytimes.com/crosswords/game/*"],
+      "js": ["app.js"]
+    }
+  ]
+}
